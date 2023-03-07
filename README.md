@@ -15,7 +15,7 @@ pip install numpy
 ```
 
 ## Usage
-Example run
+Example run, where the program is in 'C:\Users\exmpl\'
 ```
 py mtrap.py
 Pick one of the following as source for analysis [chromium | openstack | android]: c
