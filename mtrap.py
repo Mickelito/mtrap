@@ -167,9 +167,9 @@ def main():
         "openstack" : "https://review.opendev.org/changes/",
         "android" : "https://android-review.googlesource.com/changes/"
     }
-    cwd = os.getcwd()
-    plots = os.path.join(cwd, "mtrap_plots")
-    logs = os.path.join(cwd, "mtrap_json_logs")
+    script_dir = os.path.realpath(os.path.join(os.getcwd(),os.path.dirname(__file__)))
+    plots = os.path.join(script_dir, "mtrap_plots")
+    logs = os.path.join(script_dir, "mtrap_json_logs")
     if check_dir(plots) == -1:
         return -1
     elif check_dir(plots) == 1:
@@ -196,6 +196,7 @@ def main():
         data_pts, time_pts, json_log = get_changes_last_days(now, links[api], time)
         plot_changes(data_pts, time_pts, time, now, plots)
         write_log(now, time, logs, json_log)
+        print(" Plots saved in: '"+plots+"'\n Data saved as JSON in: '"+logs+"'")
         return 0
 
 if __name__ == "__main__":
