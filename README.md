@@ -21,7 +21,7 @@ python mtrap.py
 When promted for a source, it is not required to type the whole source name, the first letter is enough.  
 After a time frame has been chosen, the program starts crawling data from Gerrit, which will take a while, especially if a longer time frame is entered.  
 When the program finishes crawling data it will save results as a JSON file in the directory 'mtrap_json_logs/' and plots in 'mtrap_plots/'. These sub-directories are located in the same directory as the 'mtrap.py' file.  
-Example run, where the program is in 'C:\Users\exmpl\'
+Example run, where the program is in 'C:\Users\exmpl\':
 ```
 py mtrap.py
 Pick one of the following as source for analysis [chromium | openstack | android]: c
