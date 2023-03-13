@@ -4,7 +4,7 @@ The program uses the 'requests' package to retrieve data with HTTP GET requests,
 When run the program will save the plots and the data in directories 'mtrap_plots/' and 'mtrap_json_logs/' respectively. These directories will be created in the same directory as the program file itself. The program will create four different plots, one each for 'Opened', 'Closed', and 'Abandoned' reviews, as well as one total showing all three.
 
 ## Requirements
-Python 3.9 or newer recommended (probably works with older versions, not tested though)
+Python 3.9 or newer recommended. (probably works with older versions, not tested though)  
 Python packages:  
   -requests  
   -matplotlib  
