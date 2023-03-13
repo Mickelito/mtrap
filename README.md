@@ -3,7 +3,7 @@ Pipeline for analysis of Gerrit code reviews. Fetches information about changes 
 The program uses the 'requests' package to retrieve data with HTTP GET requests, and 'matplotlib' is used to plot the data.
 When run the program will save the plots and the data in directories 'mtrap_plots/' and 'mtrap_json_logs/' respectively. These directories will be created in the same directory as the program file itself.
 
-## Dependencies
+## Requirements
 Python packages:  
   -requests  
   -matplotlib  
