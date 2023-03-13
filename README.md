@@ -5,9 +5,9 @@ When run the program will save the plots and the data in directories 'mtrap_plot
 
 ## Dependencies
 Python packages:  
-   -requests  
-   -matplotlib  
-   -numpy  
+  -requests  
+  -matplotlib  
+  -numpy  
 These can be installed using the "requirements.txt" file.
 ```
 pip install -r requirements.txt
