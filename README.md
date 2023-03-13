@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-When installed the program can be run using
+When installed the program can be run using:
 ```
 python mtrap.py
 ```
