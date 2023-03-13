@@ -17,7 +17,11 @@ pip install -r requirements.txt
 ## Usage
 When installed the program can be run using:
 ```
-python mtrap.py
+py mtrap.py
+```
+or
+```
+python3 mtrap.py
 ```
 When promted for a source, it is not required to type the whole source name, the first letter is enough.  
 After a time frame has been chosen, the program starts crawling data from Gerrit, which will take a while, especially if a longer time frame is entered.  
