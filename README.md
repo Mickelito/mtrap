@@ -8,10 +8,9 @@ Python packages:
    -requests
    -matplotlib
    -numpy
+These can be installed using the "requirements.txt" file.
 ```
-pip install requests
-pip install matplotlib
-pip install numpy
+pip install -r requirements.txt
 ```
 
 ## Usage
