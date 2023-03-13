@@ -4,10 +4,10 @@ The program uses the 'requests' package to retrieve data with HTTP GET requests,
 When run the program will save the plots and the data in directories 'mtrap_plots/' and 'mtrap_json_logs/' respectively. These directories will be created in the same directory as the program file itself.
 
 ## Dependencies
-Python packages:
-   -requests
-   -matplotlib
-   -numpy
+Python packages:\n
+   -requests\n
+   -matplotlib\n
+   -numpy\n
 These can be installed using the "requirements.txt" file.
 ```
 pip install -r requirements.txt
