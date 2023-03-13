@@ -100,6 +100,7 @@ def plot_changes(time_points, data_points, no_days:int, now_time:dt.datetime, sa
     
     # new changes plot
     plt.figure("new")
+    plt.tick_params(axis='x',which='major',labelsize='5')
     plt.plot(x, new)
     x_axis_str = "Time\n Total opened: " + str(no_new)
     plt.xlabel(x_axis_str)
@@ -110,6 +111,7 @@ def plot_changes(time_points, data_points, no_days:int, now_time:dt.datetime, sa
 
     # merged changes plot
     plt.figure("merged")
+    plt.tick_params(axis='x',which='major',labelsize='5')
     plt.plot(x, merged)
     x_axis_str = "Time\n Total merged: " + str(no_merged)
     plt.xlabel(x_axis_str)
@@ -120,6 +122,7 @@ def plot_changes(time_points, data_points, no_days:int, now_time:dt.datetime, sa
 
     # abandoned changes plot
     plt.figure("abandoned")
+    plt.tick_params(axis='x',which='major',labelsize='5')
     plt.plot(x, abandoned)
     x_axis_str = "Time\n Total abandoned: " + str(no_abandoned)
     plt.xlabel(x_axis_str)
